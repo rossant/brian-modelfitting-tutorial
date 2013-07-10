@@ -17,8 +17,7 @@ Here are the instructions to convert the `.ipynb` notebook file into an HTML sli
   * git clone https://github.com/ipython/ipython.git
   * cd ipython
   * python setupegg.py develop
-  * git clone https://github.com/ipython/nbconvert.git
   * extract https://github.com/hakimel/reveal.js/archive/2.4.0.zip in the folder where `slides.ipynb` is in, and rename the folder to `reveal.js`.
-  * python /path/to/nbconvert/nbconvert.py reveal slides.ipynb
-  * the slides will then be in `slides.reveal.html`.
+  * ipython nbconvert reveal slides.ipynb
+  * the slides will then be in `slides.reveal.html`. Dependencies are reveal.js folder and slides_files folder.
 

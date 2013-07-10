@@ -1,1 +1,1 @@
-python D:\Git\nbconvert\nbconvert.py reveal slides.ipynb
+ipython nbconvert reveal slides.ipynb
