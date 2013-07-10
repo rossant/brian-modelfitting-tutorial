@@ -1,1 +1,1 @@
-ipython nbconvert reveal slides.ipynb
+python build.py
